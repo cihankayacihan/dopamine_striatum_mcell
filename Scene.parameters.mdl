@@ -1,0 +1,5 @@
+/* DEFINE PARAMETERS */
+large_dat = 0.000000    /* P1 Description  */
+small_dat = 800.000000    /* P2 Description  */
+da_number = 3250.000000    /* P3 Description  */
+

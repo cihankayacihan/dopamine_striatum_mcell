@@ -1,0 +1,244 @@
+sprintf(seed,"%05g",SEED)
+CHECKPOINT_INFILE = seed
+CHECKPOINT_OUTFILE = seed
+CHECKPOINT_ITERATIONS = 2500000
+INCLUDE_FILE = "Scene.parameters.mdl"
+ITERATIONS = 10000000
+TIME_STEP = 1e-06
+VACANCY_SEARCH_DISTANCE = 10
+INCLUDE_FILE = "Scene.initialization.mdl"
+PARTITION_X = [[-5.1 TO 5.1 STEP 0.51]]
+PARTITION_Y = [[-5.1 TO 5.1 STEP 0.51]]
+PARTITION_Z = [[-2.252 TO 5.546 STEP 0.39]]
+INCLUDE_FILE = "Scene.molecules.mdl"
+INCLUDE_FILE = "Scene.surface_classes.mdl"
+INCLUDE_FILE = "Scene.reactions.mdl"
+INCLUDE_FILE = "Scene.geometry.mdl"
+INCLUDE_FILE = "Scene.mod_surf_regions.mdl"
+INCLUDE_FILE = "Scene.release_patterns.mdl"
+INSTANTIATE Scene OBJECT
+{
+Cube OBJECT Cube {}
+axon1 OBJECT axon1 {}
+axon10 OBJECT axon10 {}
+axon11 OBJECT axon11 {}
+axon12 OBJECT axon12 {}
+axon13 OBJECT axon13 {}
+axon14 OBJECT axon14 {}
+axon16 OBJECT axon16 {}
+axon2 OBJECT axon2 {}
+axon3 OBJECT axon3 {}
+axon4 OBJECT axon4 {}
+axon5 OBJECT axon5 {}
+axon6 OBJECT axon6 {}
+axon7 OBJECT axon7 {}
+nonaxon OBJECT nonaxon {}
+r1m1 OBJECT r1m1 {}
+r1m10 OBJECT r1m10 {}
+r1m2 OBJECT r1m2 {}
+r1m5 OBJECT r1m5 {}
+r2m1 OBJECT r2m1 {}
+r2m10 OBJECT r2m10 {}
+r2m2 OBJECT r2m2 {}
+r2m5 OBJECT r2m5 {}
+r3m1 OBJECT r3m1 {}
+r3m10 OBJECT r3m10 {}
+r3m2 OBJECT r3m2 {}
+r3m5 OBJECT r3m5 {}
+r4m1 OBJECT r4m1 {}
+r4m10 OBJECT r4m10 {}
+r4m2 OBJECT r4m2 {}
+r4m5 OBJECT r4m5 {}
+r5m1 OBJECT r5m1 {}
+r5m10 OBJECT r5m10 {}
+r5m2 OBJECT r5m2 {}
+r5m5 OBJECT r5m5 {}
+r6m1 OBJECT r6m1 {}
+r6m10 OBJECT r6m10 {}
+r6m2 OBJECT r6m2 {}
+r6m5 OBJECT r6m5 {}
+r7m1 OBJECT r7m1 {}
+r7m10 OBJECT r7m10 {}
+r7m2 OBJECT r7m2 {}
+r7m5 OBJECT r7m5 {}
+rel1 OBJECT rel1 {}
+rel2 OBJECT rel2 {}
+rel3 OBJECT rel3 {}
+rel4 OBJECT rel4 {}
+rel5 OBJECT rel5 {}
+rel6 OBJECT rel6 {}
+rel7 OBJECT rel7 {}
+rel_axon1_datall RELEASE_SITE
+{
+SHAPE = Scene.axon1[DAT_all]
+MOLECULE = DATo'
+DENSITY = 800
+RELEASE_PROBABILITY = 1
+}
+rel_axon2_dat1 RELEASE_SITE
+{
+SHAPE = Scene.axon2[DAT1]
+MOLECULE = DATo'
+DENSITY = 0
+RELEASE_PROBABILITY = 1
+}
+rel_axon2_dat2 RELEASE_SITE
+{
+SHAPE = Scene.axon2[DAT2]
+MOLECULE = DATo'
+DENSITY = 0
+RELEASE_PROBABILITY = 1
+}
+rel_axon2_dat3 RELEASE_SITE
+{
+SHAPE = Scene.axon2[DAT3]
+MOLECULE = DATo'
+DENSITY = 0
+RELEASE_PROBABILITY = 1
+}
+rel_axon2_datall RELEASE_SITE
+{
+SHAPE = Scene.axon2[DAT_all]
+MOLECULE = DATo'
+DENSITY = 800
+RELEASE_PROBABILITY = 1
+}
+rel_axon3_datall RELEASE_SITE
+{
+SHAPE = Scene.axon3[DAT_all]
+MOLECULE = DATo'
+DENSITY = 800
+RELEASE_PROBABILITY = 1
+}
+rel_axon4_dat1 RELEASE_SITE
+{
+SHAPE = Scene.axon4[DAT1]
+MOLECULE = DATo'
+DENSITY = 0
+RELEASE_PROBABILITY = 1
+}
+rel_axon4_dat2 RELEASE_SITE
+{
+SHAPE = Scene.axon4[DAT2]
+MOLECULE = DATo'
+DENSITY = 0
+RELEASE_PROBABILITY = 1
+}
+rel_axon4_datall RELEASE_SITE
+{
+SHAPE = Scene.axon4[DAT_all]
+MOLECULE = DATo'
+DENSITY = 800
+RELEASE_PROBABILITY = 1
+}
+rel_axon5_datall RELEASE_SITE
+{
+SHAPE = Scene.axon5[DAT_all]
+MOLECULE = DATo'
+DENSITY = 800
+RELEASE_PROBABILITY = 1
+}
+rel_axon6_datall RELEASE_SITE
+{
+SHAPE = Scene.axon6[DAT_all]
+MOLECULE = DATo'
+DENSITY = 800
+RELEASE_PROBABILITY = 1
+}
+rel_axon7_datall RELEASE_SITE
+{
+SHAPE = Scene.axon7[DAT_all]
+MOLECULE = DATo'
+DENSITY = 800
+RELEASE_PROBABILITY = 1
+}
+rel_axon10_datall RELEASE_SITE
+{
+SHAPE = Scene.axon10[DAT_all]
+MOLECULE = DATo'
+DENSITY = 800
+RELEASE_PROBABILITY = 1
+}
+rel_axon11_dat1 RELEASE_SITE
+{
+SHAPE = Scene.axon11[DAT1]
+MOLECULE = DATo'
+DENSITY = 0
+RELEASE_PROBABILITY = 1
+}
+rel_axon11_datall RELEASE_SITE
+{
+SHAPE = Scene.axon11[DAT_all]
+MOLECULE = DATo'
+DENSITY = 800
+RELEASE_PROBABILITY = 1
+}
+rel_axon12_datall RELEASE_SITE
+{
+SHAPE = Scene.axon12[DAT_all]
+MOLECULE = DATo'
+DENSITY = 800
+RELEASE_PROBABILITY = 1
+}
+rel_axon13_datall RELEASE_SITE
+{
+SHAPE = Scene.axon13[DAT_all]
+MOLECULE = DATo'
+DENSITY = 800
+RELEASE_PROBABILITY = 1
+}
+rel_axon14_datall RELEASE_SITE
+{
+SHAPE = Scene.axon14[DAT_all]
+MOLECULE = DATo'
+DENSITY = 800
+RELEASE_PROBABILITY = 1
+}
+rel_axon16_dat1 RELEASE_SITE
+{
+SHAPE = Scene.axon16[DAT1]
+MOLECULE = DATo'
+DENSITY = 0
+RELEASE_PROBABILITY = 1
+}
+rel_axon16_datall RELEASE_SITE
+{
+SHAPE = Scene.axon16[DAT_all]
+MOLECULE = DATo'
+DENSITY = 800
+RELEASE_PROBABILITY = 1
+}
+DA_release3 RELEASE_SITE
+{
+SHAPE = Scene.rel5
+MOLECULE = DA
+NUMBER_TO_RELEASE = 3250
+RELEASE_PROBABILITY = 1
+RELEASE_PATTERN = DA_release3
+}
+DA_release4 RELEASE_SITE
+{
+SHAPE = Scene.rel4
+MOLECULE = DA
+NUMBER_TO_RELEASE = 3250
+RELEASE_PROBABILITY = 1
+RELEASE_PATTERN = DA_release4
+}
+DA_release5 RELEASE_SITE
+{
+SHAPE = Scene.rel4
+MOLECULE = DA
+NUMBER_TO_RELEASE = 3250
+RELEASE_PROBABILITY = 1
+RELEASE_PATTERN = DA_release5
+}
+DA_release6 RELEASE_SITE
+{
+SHAPE = Scene.rel4
+MOLECULE = DA
+NUMBER_TO_RELEASE = 3250
+RELEASE_PROBABILITY = 1
+RELEASE_PATTERN = DA_release6
+}
+}
+INCLUDE_FILE = "Scene.rxn_output.mdl"

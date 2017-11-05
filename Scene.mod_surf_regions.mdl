@@ -1,0 +1,144 @@
+MODIFY_SURFACE_REGIONS
+{
+  rel7[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  rel6[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  rel1[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  rel2[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  rel3[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  rel4[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  rel5[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r1m1[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r1m2[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r1m5[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r1m10[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r2m1[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r2m2[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r2m5[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r2m10[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r3m1[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r3m2[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r3m5[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r3m10[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r4m1[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r4m2[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r4m5[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r4m10[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r5m1[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r5m2[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r5m5[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r5m10[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r6m1[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r6m2[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r6m5[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r6m10[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r7m1[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r7m2[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r7m5[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+  r7m10[region]
+  {
+    SURFACE_CLASS = DA_trans
+  }
+}
+

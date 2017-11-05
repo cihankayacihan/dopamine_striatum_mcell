@@ -1,0 +1,28 @@
+DEFINE_MOLECULES
+{
+  DA
+  {
+    DIFFUSION_CONSTANT_3D = 4e-06
+  }
+  DATo
+  {
+    DIFFUSION_CONSTANT_2D = 0
+    CUSTOM_TIME_STEP = 1e-05
+  }
+  DATi
+  {
+    DIFFUSION_CONSTANT_2D = 0
+    CUSTOM_TIME_STEP = 1e-04
+  }
+  DA_DATo
+  {
+    DIFFUSION_CONSTANT_2D = 0
+    CUSTOM_TIME_STEP = 1e-04
+  }
+  DA_DATi
+  {
+    DIFFUSION_CONSTANT_2D = 0
+    CUSTOM_TIME_STEP = 1e-04
+  }
+}
+

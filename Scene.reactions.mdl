@@ -1,0 +1,12 @@
+DEFINE_REACTIONS
+{
+  DA' + DATo' -> DA_DATo' [>9.6e+07] : r1
+  DA_DATo' -> DA' + DATo' [>0.0] : r2
+  DA_DATo' -> DA_DATi' [>5] : r3
+  DA_DATi' -> DA_DATo' [>0.0] : r4
+  DATi' -> DATo' [>2.0] : r5
+  DATo' -> DATi' [>8.33] : r6
+  DA_DATi' -> DATi' [>20] : r7
+  DATi' -> DA_DATi' [>0.0] : r8
+}
+
